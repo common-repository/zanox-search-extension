@@ -1,0 +1,25 @@
+/**
+ * CSS for Zanox Search Plugin Admin interface
+ *
+ */
+
+fieldset.options                        {border: 1px solid #ccc; padding: 10px 10px 0px 10px; margin: 20px 0px 0px 0px; font-size: 11px; width: 800px;}
+fieldset.options legend                 {font-family: Arial, sans-serif; font-size: 13px; font-weight: bold;}
+fieldset.options .option                {border: 0px solid #a00; width: 750px; margin: 0px 0px 10px 0px; padding: 5px 0px 10px 0px; position: relative; float: left; display: inline;}
+fieldset.options .config_label          {border: 0px solid #0a0; width: 280px; padding: 0px 20px 0px 0px; text-align: left; float: left; display: inline;}
+fieldset.options .config_option         {border: 0px solid #00a; width: 450px; padding: 0px 0px 0px 0px; text-align: left; float: right; display: inline;}
+fieldset.options select>option          {font-size: 11px;}
+fieldset.options select                 {width: 400px; font-size: 11px;}
+fieldset.options .help_text             {color: #aaa; margin: 0px 0px 10px 0px;}
+.textField                              {font-size: 11px; border: 1px solid #ddd; width: 400px;}
+table                                   {margin: 0px; padding: 0px;}
+td                                      {border: 0px solid #ddd; margin: 0px 0px 0px 10px; padding: 0px 0px 5px 20px; font-size: 11px;}
+.dealer_listing                         {border: 1px solid #ccc; background-color: #fff; list-style: none; height: 200px; overflow: auto; width: 400px;}
+.dealer_listing li                      {list-style: none; line-height: 20px; margin: 0; padding: 0;}
+.dealer_listing label                   {display: block; padding-left: 5px; text-indent: 0px; font-size: 11px;}
+.dealer_listing label:hover             {background: #777; color: #fff;}
+* html .dealer_listing label            {height: 1%;}
+.button-primary                         {margin: 5px 0px 0px 0px;}
+
+#icon-options-zanox                     {background: transparent url(zanox_logo.png) no-repeat;}
+.zanox_icon                             {float: left; height: 42px;	margin: 14px 6px 0 0; width: 125px;}
